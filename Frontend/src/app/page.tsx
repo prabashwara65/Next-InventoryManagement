@@ -1,9 +1,8 @@
-import Image from "next/image";
+
+import Dashboard from "./dashboard/page";
 
 export default function Home() {
   return (
-    <div className="bg-red-200 items-center">
-      HI
-    </div>
+    <Dashboard />
   );
 }
